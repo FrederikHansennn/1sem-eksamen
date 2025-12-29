@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 640">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: .6;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 6px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1" data-name="Layer 1">
+    <image class="cls-1" width="640" height="640" xlink:href="code-sketch.jpg"/>
+  </g>
+  <g id="Layer_2" data-name="Layer 2">
+    <path class="cls-2" d="M299.86,368.77c7.16-27.39,14.31-54.79,21.47-82.18,6.85-26.29,13.43-52.65,20.89-78.79"/>
+    <path class="cls-2" d="M366.21,242.63c31.14,11.92,61.89,24.84,92.57,37.9.21,3.43-.07,6.99-.84,10.34-1.12,4.88-19.76,10.26-23.85,11.94-22.73,9.31-46.18,18.36-68.24,29.13"/>
+    <path class="cls-2" d="M274.08,332.7c-30.92-12.48-61.43-25.97-91.86-39.59-.15-3.44.19-6.98,1.02-10.32,1.21-4.86,19.94-9.9,24.06-11.5,22.89-8.89,46.5-17.52,68.76-27.88"/>
+  </g>
+</svg>
