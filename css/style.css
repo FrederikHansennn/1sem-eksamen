@@ -1,0 +1,58 @@
+:root {
+  /* CSS-variabler */
+
+  /* === FARVER === */
+
+  /* Primær farve (blå) */
+  --color-primary: #216de1;
+
+  /* Baggrundsfarve (off-white) */
+  --color-background: #f7f4ef;
+
+  /* Mørk tekst (overskrifter) */
+  --color-text-heading: #2b2b2b;
+
+  /* Almindelig tekst */
+  --color-text-body: #333333;
+
+  /* Neutrale UI-farver */
+  --color-gray-light: #e5e5e5;
+  --color-gray-medium: #9b9b9b;
+
+  /* === FONTE=== */
+
+  --font-heading: "Bebas Neue", sans-serif;
+  --font-body: "Poppins", sans-serif;
+}
+
+/* HEADER (fælles) */
+.site-header {
+  background: var(--color-primary);
+}
+
+.header-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: var(--font-heading);
+  font-size: 1.4rem;
+  color: white;
+}
+
+/* Navigation */
+.site-nav ul {
+  display: flex;
+  gap: 16px;
+}
+
+.site-nav a {
+  color: white;
+  font-family: var(--font-body);
+  font-size: 1rem;
+}
