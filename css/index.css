@@ -1,0 +1,59 @@
+/* INTRO */
+.intro {
+  padding: 32px 16px;
+}
+
+/* Tekst */
+.intro-text h1 {
+  font-size: 2.2rem;
+  line-height: 1.05;
+  margin: 0 0 6px;
+}
+
+.subtitle {
+  margin: 0 0 14px;
+  opacity: 0.8;
+}
+
+.intro-text p {
+  margin: 0 0 18px;
+  max-width: 32ch;
+}
+
+.intro-text .btn {
+  margin-top: 6px;
+}
+
+/* OM MIG TEASER */
+.about-teaser {
+  padding: 32px 16px;
+  margin-top: auto; /* skubber sektionen til bunden af siden */
+}
+
+.about-content {
+  display: flex;
+  gap: 24px;
+  align-items: flex-end; /* figur og tekst aligner i bunden */
+}
+
+.about-content .figur {
+  width: 180px;
+  height: auto;
+  max-width: none;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 32ch;
+}
+
+main {
+  min-height: calc(
+    100vh - 72px
+  ); /* justér 72 hvis din header er højere/lavere */
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0;
+}
