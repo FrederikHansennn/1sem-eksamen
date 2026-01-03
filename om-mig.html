@@ -48,6 +48,7 @@
           <p class="about-lead">
             Jeg hedder Frederik, jeg er 22 år og så bor jeg i København
           </p>
+          <img src="img/blue-texture-rigth-1.svg" alt="blaa textur" />
         </div>
 
         <img
@@ -80,6 +81,10 @@
         </div>
       </section>
 
+      <div>
+        <img src="img/blue-texture-left-1.svg" alt="blaa textur" />
+      </div>
+
       <!-- HVAD HAR JEG FÅET UD AF 1. SEMESTER -->
       <section class="about-learning">
         <h2>Hvad har jeg fået ud af 1. semester</h2>
@@ -103,6 +108,54 @@
           Alt i alt har 1. semester givet mig et solidt fagligt fundament og en
           forståelse for, hvordan design, indhold og teknik hænger sammen.
         </p>
+      </section>
+
+      <section class="contact">
+        <h2>Skal vi samarbejde?</h2>
+
+        <form class="contact-form" id="contactForm">
+          <!-- Række 1 -->
+          <div class="form-row">
+            <div class="form-field">
+              <label for="fullName">Fulde navn</label>
+              <input type="text" id="fullName" name="fullName" required />
+            </div>
+
+            <div class="form-field">
+              <label for="phone">Tlf nummer</label>
+              <input type="tel" id="phone" name="phone" />
+            </div>
+          </div>
+
+          <!-- Række 2 -->
+          <div class="form-row">
+            <div class="form-field">
+              <label for="email">Mail-adresse</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+
+            <div class="form-field">
+              <label for="subject">Emne</label>
+              <select id="subject" name="subject" required>
+                <option value="" selected>Vælg emne</option>
+                <option value="samarbejde">Samarbejde</option>
+                <option value="spørgsmål">Spørgsmål</option>
+                <option value="andet">Andet</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Besked -->
+          <div class="form-field">
+            <label for="message">Besked</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+          </div>
+
+          <button type="submit" class="btn">Indsend</button>
+
+          <!-- JS-feedback senere -->
+          <p class="form-feedback" id="formFeedback"></p>
+        </form>
       </section>
     </main>
   </body>
