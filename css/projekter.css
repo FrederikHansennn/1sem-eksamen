@@ -1,3 +1,9 @@
+.projekter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .project details p {
   margin-top: 12px;
 }
@@ -6,6 +12,16 @@
   margin-top: 0;
 }
 
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.texture-right {
+  width: 100%;
+  max-width: 110px;
+  float: right;
+}
 .acc-img {
   display: flex;
   flex-direction: column;

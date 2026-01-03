@@ -49,6 +49,16 @@
   max-width: 32ch;
 }
 
+.decorative1 {
+  display: flex;
+  align-items: center;
+}
+
+.decorative1 :last-child {
+  width: 100%;
+  max-width: 150px;
+}
+
 main {
   min-height: calc(
     100vh - 72px

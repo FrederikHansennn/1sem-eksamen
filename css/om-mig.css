@@ -1,11 +1,94 @@
-.om-mig1 {
+.about-learning {
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
+  text-align: left;
+  gap: 10px;
 }
 
-om-mig2 {
+.about-professional {
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
-  gap: 5px;
-  border: 2px solid black;
+  text-align: left;
+  gap: 10px;
+}
+
+.om-mig1 img {
+  float: right;
+  width: 100%;
+  max-width: 20px;
+}
+
+.about-portrait {
+  width: 100%;
+  max-width: 180px;
+  height: auto;
+  display: block;
+  margin: 16px auto; /* centrer billedet */
+}
+
+.contact {
+  margin-top: 48px;
+}
+
+.contact h2 {
+  margin-bottom: 16px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* rækker (på mobil = kolonne) */
+.form-row {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* hvert felt */
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-field label {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+/* input, select og textarea */
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  font-family: var(--font-body);
+  font-size: 1rem;
+
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--color-gray-light);
+
+  background: white;
+}
+
+/* beskedfelt */
+.contact-form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+/* knap */
+.contact-form .btn {
+  align-self: center; /* stopper full-width */
+  margin-top: 8px;
+}
+
+/* feedback-tekst (JS senere) */
+.form-feedback {
+  margin-top: 12px;
+  font-size: 0.9rem;
 }
