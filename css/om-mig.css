@@ -1,3 +1,8 @@
+main {
+  margin: 0 auto;
+  padding: 64px 32px;
+}
+
 .about-learning {
   margin-top: 20px;
   display: flex;
@@ -6,18 +11,16 @@
   gap: 10px;
 }
 
+.blue-texture {
+  margin-left: -32px;
+}
+
 .about-professional {
   margin-top: 20px;
   display: flex;
   flex-direction: column;
   text-align: left;
   gap: 10px;
-}
-
-.om-mig1 img {
-  float: right;
-  width: 100%;
-  max-width: 20px;
 }
 
 .about-portrait {
@@ -40,6 +43,8 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
+  border: 1px solid #ccc;
+  border-radius: 16px;
 }
 
 /* rækker (på mobil = kolonne) */
@@ -91,4 +96,65 @@
 .form-feedback {
   margin-top: 12px;
   font-size: 0.9rem;
+}
+
+@media (min-width: 1200px) {
+  .om-mig1 {
+    padding-left: 20px;
+  }
+  .about-intro {
+    display: flex;
+    gap: 48px;
+  }
+
+  .about-portrait {
+    margin-left: auto;
+    max-width: 320px;
+  }
+
+  .about-professional,
+  .about-learning {
+    max-width: 680px;
+    padding-left: 20px;
+  }
+
+  .about-professional {
+    margin-top: 32px;
+    margin-bottom: 60px;
+  }
+
+  .about-learning {
+    margin-top: 48px;
+  }
+  .contact {
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    margin-top: 64px;
+  }
+
+  .contact-form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 32px;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+  }
+
+  .contact-form .form-row {
+    display: flex;
+    gap: 24px;
+  }
+
+  .contact-form .form-row .form-field {
+    flex: 1;
+  }
+  .potrait-deco {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  potrait-deco img {
+    margin-right: -100px;
+  }
 }

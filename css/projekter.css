@@ -1,3 +1,9 @@
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 64px 32px;
+}
+
 .projekter {
   display: flex;
   flex-direction: column;
@@ -5,9 +11,12 @@
 }
 
 .project details p {
-  margin-top: 12px;
+  margin-top: 4px;
 }
-
+details {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+}
 .project details p:first-child {
   margin-top: 0;
 }
@@ -45,4 +54,50 @@
 .P-links {
   font-weight: bold;
   text-align: center;
+}
+@media (min-width: 1200px) {
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 64px 32px;
+  }
+
+  .blue-texture {
+    max-width: 150px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    top: 400px;
+  }
+
+  .projects-list {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+  }
+
+  .acc-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* vælg 2 eller 3 */
+    gap: 16px;
+    margin-bottom: 80px;
+  }
+
+  .acc-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .acc-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  .P-links {
+    text-align: center;
+    margin-bottom: 40px;
+  }
 }

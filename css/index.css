@@ -28,15 +28,12 @@
 .about-teaser {
   padding: 32px 16px;
   margin-top: auto; /* skubber sektionen til bunden af siden */
-}
-
-.about-content {
   display: flex;
   gap: 24px;
   align-items: flex-end; /* figur og tekst aligner i bunden */
 }
 
-.about-content .figur {
+.figur {
   width: 180px;
   height: auto;
   max-width: none;
@@ -66,4 +63,41 @@ main {
   display: flex;
   flex-direction: column;
   padding-bottom: 0;
+}
+
+@media (min-width: 1200px) {
+  main {
+    display: flex;
+    gap: 64px;
+    max-width: 1200px;
+  }
+
+  .intro {
+    flex: 2;
+  }
+  .about-teaser {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .about-text {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 150px;
+  }
+
+  .figur {
+    margin-left: 60px;
+  }
+
+  .decorative1 {
+    display: flex;
+  }
+  .decorative1 img:last-child {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 200px;
+  }
 }
