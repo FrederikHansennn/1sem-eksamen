@@ -91,3 +91,14 @@ ul {
   font-weight: 600;
   text-decoration: none;
 }
+
+@media (min-width: 1200px) {
+  body {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  .btn {
+    width: fit-content;
+    padding: 12px 24px;
+  }
+}
