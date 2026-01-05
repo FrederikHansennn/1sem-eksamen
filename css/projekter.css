@@ -4,12 +4,6 @@ main {
   padding: 64px 32px;
 }
 
-.projekter {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .project details p {
   margin-top: 4px;
 }
@@ -32,9 +26,10 @@ details {
   float: right;
 }
 .acc-img {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr); /* vælg 2 eller 3 */
+  align-items: center;
+  gap: 16px;
   margin-top: 20px;
 }
 
