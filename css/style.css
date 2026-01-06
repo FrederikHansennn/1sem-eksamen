@@ -85,20 +85,30 @@ ul {
 .btn {
   display: inline-block;
   padding: 10px 16px;
-  border-radius: 999px;
+  border-radius: 500px;
   background: var(--color-primary);
   color: #fff;
   font-weight: 600;
   text-decoration: none;
+  min-width: 240px; /* Sørg for de alle er brede nok */
+  height: 40px; /* Fast højde */
+  line-height: 1.2;
+  display: flex; /* Brug flexbox */
+  align-items: center; /* Centrér vertikalt */
+  justify-content: center; /* Centrér horisontalt */
+  text-align: center;
+  margin-bottom: 16px; /* Lidt afstand under knappen */
+  width: fit-content;
 }
 
 @media (min-width: 1200px) {
   body {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.6;
   }
   .btn {
-    width: fit-content;
+    min-width: 200px; /* Minimum bredde på desktop */
     padding: 12px 24px;
+    white-space: nowrap; /* Sørg for det også gælder her */
   }
 }

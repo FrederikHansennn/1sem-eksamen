@@ -72,9 +72,6 @@ main {
     max-width: 1200px;
   }
 
-  .intro {
-    flex: 2;
-  }
   .about-teaser {
     display: flex;
     justify-content: space-between;
