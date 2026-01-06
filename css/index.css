@@ -31,6 +31,7 @@
   display: flex;
   gap: 24px;
   align-items: flex-end; /* figur og tekst aligner i bunden */
+  flex-wrap: wrap;
 }
 
 .figur {
@@ -43,12 +44,12 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
-  max-width: 32ch;
 }
 
 .decorative1 {
   display: flex;
   align-items: center;
+  max-width: 100%;
 }
 
 .decorative1 :last-child {

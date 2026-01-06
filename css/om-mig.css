@@ -1,5 +1,4 @@
 main {
-  margin: 0 auto;
   padding: 64px 32px;
 }
 
@@ -46,6 +45,7 @@ main {
   border: 1px solid #ccc;
   border-radius: 16px;
   background-color: #f5f7fa;
+  padding: 16px;
 }
 
 /* rækker (på mobil = kolonne) */
@@ -153,9 +153,5 @@ main {
   .potrait-deco {
     display: grid;
     grid-template-columns: 2fr 1fr;
-  }
-
-  potrait-deco img {
-    margin-right: -100px;
   }
 }

@@ -40,10 +40,6 @@ img {
   max-width: 100%;
 }
 
-a {
-  color: inherit;
-}
-
 ul {
   list-style: none;
 }
@@ -83,7 +79,6 @@ ul {
 
 /* ========== BUTTON (fælles) ========== */
 .btn {
-  display: inline-block;
   padding: 10px 16px;
   border-radius: 500px;
   background: var(--color-primary);
@@ -91,7 +86,7 @@ ul {
   font-weight: 600;
   text-decoration: none;
   min-width: 240px; /* Sørg for de alle er brede nok */
-  height: 40px; /* Fast højde */
+  min-height: 40px; /* Fast højde */
   line-height: 1.2;
   display: flex; /* Brug flexbox */
   align-items: center; /* Centrér vertikalt */
